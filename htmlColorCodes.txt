@@ -1,0 +1,8 @@
+Neffli Color Codes
+	Pulled Directly from Logo, into HTML
+
+
+		HTML
+		#002838	Blue
+		#ED1C24 Red
+		#939598 Gray
