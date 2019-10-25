@@ -2,8 +2,8 @@
 ## Neffli Website
 **Version: 0.0.2**
 
-### This is a website made for some friends of mine at NEFFLI in Rangor, Maine
-### If you want one, Get ahold of us
+### This is a website created for the good people at New England Family First Life Insurance (NEFFLI) in Rangor, Maine
+### If you would like something similar, get ahold of us
 ### If you are a developer, feel free to use this as a template
 
 *New England Family First Life Insurance Brokerage is a life insurance company based in Maine that is attempting to improve SEO and lead generation through the use of this website.*
