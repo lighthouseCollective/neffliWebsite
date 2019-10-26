@@ -18,9 +18,9 @@
 
 
 ### Structure of the Site
-The site revolves around a linked NavBar that follows the user down the page. After one initial load, all website content is available throughout the vertical page which prevents undesirable loading time. While the site is vertically dense, it is visually stimulating to counteract the short attention spans of modern consumers.
+The site revolves around a linked **NavBar** that follows the user down the page. After one initial load, all website content is available throughout the vertical page which prevents undesirable loading time. While the site is vertically dense, it is visually stimulating to counteract the short attention spans of modern consumers.
 
-At any time, the viewer can return to the top of the page by clicking the 'take a look around' button on the top left of the screen. Because the NavBar follows the user, it is very easy and quick to navigate to the varying sections of the site.
+At any time, the viewer can return to the top of the page by clicking the **take a look around** button on the top left of the screen. Because the **NavBar** follows the user, it is very easy and quick to navigate to the varying sections of the site.
 
 #### Layout
 * Take a Look Around
@@ -36,8 +36,8 @@ At any time, the viewer can return to the top of the page by clicking the 'take 
 * Red, White and Blue theme
 
 ### Planning
-* Initial launch on _Monday, October 28, 2019
-* Link Google Analytics ID into index.html after launch
+* Initial launch on _Monday, October 28, 2019_
+* Link Google Analytics ID into **index.html** after launch
 * Need to fix TopBar (NavBar) issues for iOS and mobile
 
 #### Planned Features
@@ -52,7 +52,7 @@ At any time, the viewer can return to the top of the page by clicking the 'take 
 ### Updates
 
 #### v0.0.3
-* Updated styling with neffli.css
+* Updated styling with **neffli.css**
 	* Bolded text
 	* Formatted images (size)
 	* Added visual breaks between sections
