@@ -8,10 +8,10 @@
 
 *New England Family First Life Insurance Brokerage is a life insurance company based in Maine that is attempting to improve SEO and lead generation through the use of this website.*
 
-#### Table of Contents
+### Table of Contents
 * [Structure of the Site](#structure-of-the-site)
-* [Features](#features)
     * [Layout](#layout)
+    * [Features](#features)
 * [Planning](#planning)
     * [Planned Features](#planned-features)
 * [Updates](#updates)
