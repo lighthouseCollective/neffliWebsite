@@ -108,7 +108,7 @@
   letter-spacing: 0.8rem;
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .masthead h2 {
@@ -176,7 +176,9 @@
 }
 
 .projects-section {
-  padding: 3rem 0;
+  padding: 2rem 0;
+  /*! font-weight: bold; */
+  text-align: center;
 }
 
 .projects-section .featured-text {
@@ -211,19 +213,31 @@
   }
 }
 
-/*! 
-
 .scrolling-wrapper {
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
 }
 
-.card {
+.scrolling-wrapper, .scrolling-wrapper-flexbox {
+  height: 80px;
+  margin-bottom: 20px;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  -webkit-scrollbar {
+    display: none;
+  }
+} 
+.provider {
   display: inline-block;
 }
 
-*/
+.provider {
+  border: 2px solid #002838;
+  width: 150px;
+  height: 75px;
+  background: #939598;
+}
 
 .signup-section {
   padding: 5rem 0;
@@ -231,12 +245,12 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: cover, 50%;
+  background-size: contain;
 }
 
 .signup-section .form-inline input {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
+  padding: .5rem 2rem;
   height: auto;
   font-family: 'Varela Round';
   font-size: 80%;
@@ -316,5 +330,5 @@ a:focus, a:hover {
 }
 
 footer {
-  padding: 5rem 0;
+  padding: 2rem 0;
 }
