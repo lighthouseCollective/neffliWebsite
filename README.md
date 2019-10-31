@@ -33,10 +33,13 @@ At any time, the viewer can return to the top of the page by clicking the **take
 #### Features
 * Linked NavBar
 * Social Media icons with future linkage to appropriate URLs
-* Red, White and Blue theme
+* Red, White and Blue theme, color codes pulled from logo
+	- ![#002838](https://placehold.it/15/002838/000000?text=+) `#002838`
+	- ![#c5f015](https://placehold.it/15/ed1c24/000000?text=+) `#ed1c24`
+	- ![#939598](https://placehold.it/15/939598/000000?text=+) `#939598`
 
 ### Planning
-* Initial launch on _Monday, October 28, 2019_
+* Initial launch on _Friday, November 1, 2019_
 * Link Google Analytics ID into **index.html** after launch
 * Need to fix TopBar (NavBar) issues for iOS and mobile
 
