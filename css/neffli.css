@@ -2,7 +2,7 @@
  * neffliStyle.css
  * Neffli Website Style Sheet
  * 10.19.19
- * Updated 10.25.19
+ * Updated 11.04.19
  *
  * Dylan Todd
  * For use by and for New England Family First Life Insurance Brokerage
@@ -183,6 +183,7 @@
 
 .projects-section .featured-text {
   padding: 2rem;
+  font-size: 90%;
 }
 
 @media (min-width: 992px) {
@@ -215,27 +216,38 @@
 
 .scrolling-wrapper {
   overflow-x: scroll;
-  overflow-y: hidden;
+  overflow-y: contain;
   white-space: nowrap;
 }
 
 .scrolling-wrapper, .scrolling-wrapper-flexbox {
-  height: 80px;
+  height: 175px;
   margin-bottom: 20px;
   width: 100%;
   -webkit-overflow-scrolling: touch;
-  -webkit-scrollbar {
+  &::-webkit-scrollbar {
     display: none;
   }
-} 
+}
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
 .provider {
   display: inline-block;
 }
 
 .provider {
+  flex: 0 0 auto;
+  margin-right: 3px;
+}
+
+.provider {
   border: 2px solid #002838;
   width: 150px;
-  height: 75px;
+  height: 150px;
   background: #939598;
 }
 
