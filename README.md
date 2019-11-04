@@ -41,31 +41,31 @@ At any time, the viewer can return to the top of the page by clicking the **take
 * 'Request a Quote' functionality for lead generation
 
 ### Planning
-[ ] Initial launch on _Monday, November 4, 2019_
-[x] Link Google Analytics ID into **index.html** after launch
-[ ] Need to fix TopBar (NavBar) issues for iOS and mobile
-[ ] Final formatting / layout tweaks
-[ ] Final content additions / edits before launch
+- [ ] Initial launch on _Monday, November 4, 2019_
+- [x] Link Google Analytics ID into **index.html** after launch
+- [ ] Need to fix TopBar (NavBar) issues for iOS and mobile
+- [ ] Final formatting / layout tweaks
+- [ ] Final content additions / edits before launch
 
 #### Planned Features
-[ ] 'Request a Quote' button functionality - 
+- [ ] 'Request a Quote' button functionality - 
 	* Generates auto reply that prompts potential customer for more information, developing a more comprehensive lead
 	* Links to newenglandffl proper email address
 	* Keeps count of request a quote button activtions, with valid email
 		* via MailChimp
 		* via Google Analytics
-[ ] Blog Capabilities
-[ ] Container for customer reviews & ratings
+- [ ] Blog Capabilities
+- [ ] Container for customer reviews & ratings
 
 ### Updates
 
 #### v0.0.4
-* Fixed functionality of horizontal scroll for 'providers'
+* Fixed functionality of horizontal scroll for *providers*
 * Justified text as specified by client
 * Changed text size to 90%, as specified by client
-* Formatting changes for team member containers under 'about us'
+* Formatting changes for team member containers under *about us*
 * Added Google Analytics tag / tracking ID
-* Altered layout of 'services provided' section
+* Altered layout of *services provided* section
 
 #### v0.0.3
 * Updated styling with **neffli.css**
@@ -78,7 +78,7 @@ At any time, the viewer can return to the top of the page by clicking the **take
 
 #### v0.0.2
 * Made changes to README
-* Added 'meet the team' section with personalized containers for each member of Neffli team
+* Added *meet the team* section with personalized containers for each member of Neffli team
 * Added basic framework for horizontal scroll wheel to display providers
 
 #### v0.0.1
