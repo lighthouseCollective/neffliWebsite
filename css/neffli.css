@@ -2,7 +2,7 @@
  * neffliStyle.css
  * Neffli Website Style Sheet
  * 10.19.19
- * Updated 11.04.19
+ * Updated 11.11.19
  *
  * Dylan Todd
  * For use by and for New England Family First Life Insurance Brokerage
@@ -11,6 +11,7 @@
 #mainNav {
   min-height: 56px;
   background-color: #fff;
+  position: fixed;
 }
 
 #mainNav .navbar-toggler {
@@ -263,6 +264,7 @@
 .signup-section .form-inline input {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: .5rem 2rem;
+  width: auto;
   height: auto;
   font-family: 'Varela Round';
   font-size: 80%;
@@ -343,4 +345,5 @@ a:focus, a:hover {
 
 footer {
   padding: 2rem 0;
+  font-variant: small-caps;
 }
