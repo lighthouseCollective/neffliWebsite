@@ -1,6 +1,6 @@
 # New England Family First Life Insurance
 ## Neffli Website
-**Version: 0.0.4**
+**Version: 0.0.5**
 
 ### This is a website created for the good people at New England Family First Life Insurance (NEFFLI) in Rangor, Maine
 #### If you would like something similar, get ahold of us
@@ -18,9 +18,9 @@
 
 
 ### Structure of the Site
-The site revolves around a linked **NavBar** that follows the user down the page. After one initial load, all website content is available throughout the vertical page which prevents undesirable loading time. While the site is vertically dense, it is visually stimulating to counteract the short attention spans of modern consumers.
+The site revolves around a linked ***NavBar*** that follows the user down the page. After one initial load, all website content is available throughout the vertical page which prevents undesirable loading time. While the site is vertically dense, it is visually stimulating to counteract the short attention spans of modern consumers.
 
-At any time, the viewer can return to the top of the page by clicking the **take a look around** button on the top left of the screen. Because the **NavBar** follows the user, it is very easy and quick to navigate to the varying sections of the site.
+At any time, the viewer can return to the top of the page by clicking the ***take a look around*** button on the top left of the screen. Because the ***NavBar*** follows the user, it is very easy and quick to navigate to the varying sections of the site.
 
 #### Layout
 * Take a Look Around
@@ -41,14 +41,16 @@ At any time, the viewer can return to the top of the page by clicking the **take
 * 'Request a Quote' functionality for lead generation
 
 ### Planning
-- [ ] Initial launch on _Monday, November 4, 2019_
+- [ ] Initial launch on _Tuesday, November 12, 2019_
 - [x] Link Google Analytics ID into **index.html** after launch
 - [ ] Need to fix TopBar (NavBar) issues for iOS and mobile
-- [ ] Final formatting / layout tweaks
-- [ ] Final content additions / edits before launch
+- [x] Final formatting / layout tweaks
+- [ ] Final content additions before launch
+- [ ] Minimize css and js into css.min and js.min
+- [ ] **Final Check for Subscriber Functionality**
 
 #### Planned Features
-- [ ] 'Request a Quote' button functionality - 
+- [x] 'Request a Quote' button functionality - 
 	* Generates auto reply that prompts potential customer for more information, developing a more comprehensive lead
 	* Links to newenglandffl proper email address
 	* Keeps count of request a quote button activtions, with valid email
@@ -59,13 +61,23 @@ At any time, the viewer can return to the top of the page by clicking the **take
 
 ### Updates
 
+#### v0.0.5
+* Enabled capability to communicate with client mailChimp account
+* Implemented a button that ***subscribes*** a potential client for neffli
+	* Prompts an automated ***welcome email*** from mailChimp 
+	* ***welcome email*** includes a form for customer to fill out
+	* this form replaces neffli's traditional pay-to-play lead 
+* Updated styling via **neffli.css**
+* Finalized formatting on **index.html**
+* Touched up ***providers***
+
 #### v0.0.4
-* Fixed functionality of horizontal scroll for *providers*
+* Fixed functionality of horizontal scroll for ***providers***
 * Justified text as specified by client
 * Changed text size to 90%, as specified by client
-* Formatting changes for team member containers under *about us*
+* Formatting changes for team member containers under ***about us***
 * Added Google Analytics tag / tracking ID
-* Altered layout of *services provided* section
+* Altered layout of ***services provided*** section
 
 #### v0.0.3
 * Updated styling with **neffli.css**
@@ -78,7 +90,7 @@ At any time, the viewer can return to the top of the page by clicking the **take
 
 #### v0.0.2
 * Made changes to README
-* Added *meet the team* section with personalized containers for each member of Neffli team
+* Added ***meet the team*** section with personalized containers for each member of Neffli team
 * Added basic framework for horizontal scroll wheel to display providers
 
 #### v0.0.1
