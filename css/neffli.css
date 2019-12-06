@@ -2,7 +2,7 @@
  * neffliStyle.css
  * Neffli Website Style Sheet
  * 10.19.19
- * Updated 11.11.19
+ * Updated 11.25.19
  *
  * Dylan Todd
  * For use by and for New England Family First Life Insurance Brokerage
@@ -155,7 +155,8 @@
 }
 
 .btn-primary:hover {
-  background-color: #002838;
+  background-color: #ED1C24;
+  color: #002838;
 }
 
 .btn-primary:focus {
