@@ -1,6 +1,6 @@
 # New England Family First Life Insurance
 ## Neffli Website
-**Version: 0.0.5**
+**Version: 1.0.0**
 
 ### This is a website created for the good people at New England Family First Life Insurance (NEFFLI) in Rangor, Maine
 #### If you would like something similar, get ahold of us
@@ -41,13 +41,13 @@ At any time, the viewer can return to the top of the page by clicking the ***tak
 * 'Request a Quote' functionality for lead generation
 
 ### Planning
-- [ ] Initial launch on _Tuesday, November 12, 2019_
+- [x] Initial launch on _Friday, November 30, 2019_
 - [x] Link Google Analytics ID into **index.html** after launch
-- [ ] Need to fix TopBar (NavBar) issues for iOS and mobile
+- [x] Need to fix TopBar (NavBar) issues for iOS and mobile
 - [x] Final formatting / layout tweaks
-- [ ] Final content additions before launch
-- [ ] Minimize css and js into css.min and js.min
-- [ ] **Final Check for Subscriber Functionality**
+- [x] Final content additions before launch
+- [x] Minimize css and js into css.min and js.min
+- [x] **Final Check for Subscriber Functionality**
 
 #### Planned Features
 - [x] 'Request a Quote' button functionality - 
@@ -61,7 +61,16 @@ At any time, the viewer can return to the top of the page by clicking the ***tak
 
 ### Updates
 
-#### v0.0.5
+#### v1.0.0
+* Solved navBar bug and closed issue
+* Launched newenglandffl.com over FTP
+* Started Google Analytics
+* Started JotForm Analytics
+* Identified and corrected mobile compatibility issues
+
+-------
+
+#### v0.1.4
 * Enabled capability to communicate with client mailChimp account
 * Implemented a button that ***subscribes*** a potential client for neffli
 	* Prompts an automated ***welcome email*** from mailChimp 
@@ -71,7 +80,7 @@ At any time, the viewer can return to the top of the page by clicking the ***tak
 * Finalized formatting on **index.html**
 * Touched up ***providers***
 
-#### v0.0.4
+#### v0.1.3
 * Fixed functionality of horizontal scroll for ***providers***
 * Justified text as specified by client
 * Changed text size to 90%, as specified by client
@@ -79,7 +88,7 @@ At any time, the viewer can return to the top of the page by clicking the ***tak
 * Added Google Analytics tag / tracking ID
 * Altered layout of ***services provided*** section
 
-#### v0.0.3
+#### v0.1.2
 * Updated styling with **neffli.css**
 	* Bolded text
 	* Formatted images (size)
@@ -88,10 +97,10 @@ At any time, the viewer can return to the top of the page by clicking the ***tak
 * Linked (LinkedIn) button to functional url
 * Centered text and headers
 
-#### v0.0.2
+#### v0.1.1
 * Made changes to README
 * Added ***meet the team*** section with personalized containers for each member of Neffli team
 * Added basic framework for horizontal scroll wheel to display providers
 
-#### v0.0.1
+#### v0.1.0
 **MILESTONE: *Initial Commit***
